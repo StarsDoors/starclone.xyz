@@ -1,0 +1,18 @@
+<title>starclone.xyz👻</title>
+<head></head>
+<meta content="starclone.xyz" property="og:title"/>
+<meta content="may or may not include jumpscares" property="og:description"/>
+<meta content="#00CF00" data-react-helmet="true" name="theme-color"/>
+<meta content="https://lolcat.boo/assets/robert.png" property="og:image"/>
+<div id="container"></div>
+<p>this website is very high qualité</p>
+<button onclick="button()">click me for a surprise</button>
+<script>
+function button(){
+	document.body.innerHTML = ""
+	let container = document.createElement("div")
+	document.body.appendChild(container)
+	container.innerHTML = '<video autoplay name="media"><source src="assets/jumpscare.mp4" type="video/mp4"></video>'
+	container.addEventListener("ended", function(){location.href = "https://www.youtube.com/watch?v=uHgt8giw1LY"}, true)
+}
+</script>
